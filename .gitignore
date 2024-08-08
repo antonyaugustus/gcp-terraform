@@ -20,7 +20,7 @@ ansible/group_vars/extra.yml
 
 gke/cluster/*.tfvars
 ds/**/*.tfvars
-modules/
+**/*.tfvars
 files/
 !ansible/roles/istio/files
 
